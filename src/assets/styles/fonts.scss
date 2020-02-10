@@ -1,0 +1,25 @@
+$font_path: '~@/assets/styles/fonts/';
+
+@font-face{
+  font-family    : 'sansproregular';
+  src            : url($font_path + 'SourceSansPro-Regular.ttf') format('truetype');
+  font-style     : normal;
+  font-weight    : normal;
+  text-rendering : optimizeLegibility;
+}
+
+@font-face{
+  font-family    : 'sansprobold';
+  src            : url($font_path + 'SourceSansPro-Bold.ttf') format('truetype');
+  font-style     : normal;
+  font-weight    : normal;
+  text-rendering : optimizeLegibility;
+}
+
+@font-face{
+  font-family    : 'sansproblack';
+  src            : url($font_path + 'SourceSansPro-Black.ttf') format('truetype');
+  font-style     : normal;
+  font-weight    : normal;
+  text-rendering : optimizeLegibility;
+}
